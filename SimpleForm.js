@@ -75,7 +75,7 @@ export default class SimpleForm extends React.Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <p>
-            <h1>El titulo es {name}</h1>
+            <b>El titulo es {name}</b>
           </p>
           <input type="text" name="name" value={name} onChange={this.handleChange} />
           <br/>
